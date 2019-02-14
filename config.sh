@@ -3,8 +3,12 @@
 sudo apt update
 sudo apt upgrade -y
 
+
+adduser tomosev
+usermod -aG sudo tomosev
+
 #Install node.js + pre-requisites
-sudo apt install nodejs #Need to look into this.
+sudo apt install nodejs npm
 
 #check node has been installed
 node -v
@@ -20,3 +24,9 @@ sudo ufw enable
 sudo passwd -l 
 
 echo "General setup done"
+
+//test user
+su - tomosev
+sudo ls -la /root
+
+echo "User setup done"
