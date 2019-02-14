@@ -3,7 +3,6 @@
 sudo apt update
 sudo apt upgrade -y
 
-
 adduser tomosev
 usermod -aG sudo tomosev
 
@@ -24,13 +23,13 @@ sudo ufw default allow outgoing
 sudo ufw allow ssh
 sudo ufw enable
 
-#Lock root for security
+#Lock root for security 
 sudo passwd -l 
 
 echo "Server setup completed"
 
-//test user
+#test user sudo permissions
 su - tomosev
 sudo ls -la /root
 
-echo "User setup completed"
+echo "User test completed"
