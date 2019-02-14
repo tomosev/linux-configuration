@@ -10,9 +10,13 @@ usermod -aG sudo tomosev
 #Install node.js + pre-requisites
 sudo apt install nodejs npm
 
+#Install NTP for time sync
+sudo apt install ntp
+
 #check node has been installed
 node -v
 npm version
+echo "node.js installed"
 
 #Set up firewalls
 sudo ufw default deny incoming
@@ -23,10 +27,10 @@ sudo ufw enable
 #Lock root for security
 sudo passwd -l 
 
-echo "General setup done"
+echo "Server setup completed"
 
 //test user
 su - tomosev
 sudo ls -la /root
 
-echo "User setup done"
+echo "User setup completed"
