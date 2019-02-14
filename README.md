@@ -1,5 +1,5 @@
 # linux-configuration
-My personal linux server configuation for my domain tomosev.pro, to be used when I create new servers so I can easily and quickly set up the server. Feel free to use it for your own use as well.  
+My personal linux server configuation for my domain tomosev.pro, to be used when I create new servers. `this is currently a work in progress and is subject to change`
 
 
 ## Example: 
@@ -25,9 +25,9 @@ Clone this repo to your home directory
 ```
 Then run `config.sh`  and it will in this order;
 
-1. Updates linux server packages and runs installation
-2. New user added + given sudo permissions
-3. Installation of node.js
-4. Installation of NTP for server time sync
-5. Firewalls setup
-6. Root user locked
+**1.** Updates linux server packages and runs installation
+**2.** New user added + given sudo permissions
+**3.** Installation of node.js
+**4.** Installation of NTP for server time sync
+**5.** Firewalls setup
+**6.** Root user locked
