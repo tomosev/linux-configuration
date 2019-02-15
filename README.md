@@ -20,8 +20,10 @@ sudo apt install ntp
 ## Installation: 
 Clone this repo to your home directory
 ```
-~$ cd /home
-/home$ git clone https://github.com/tomosev/linux-configuration
+$ cd ~
+$ git clone https://github.com/tomosev/linux-configuration
+$ cd linux-configuration
+$ sudo sh config.sh
 ```
 Then run `config.sh`  and it will in this order;
 
