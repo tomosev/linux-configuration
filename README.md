@@ -1,5 +1,5 @@
 # linux-configuration
-> My personal linux server configuation, to be used when I create new servers. *this is currently a work in progress and is subject to change*
+> My personal linux server configuation, to be used when I setup new servers. *this is currently a work in progress and is subject to change*
 
 
 ## Example: 
