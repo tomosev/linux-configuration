@@ -6,6 +6,9 @@ sudo apt upgrade -y
 adduser tomosev
 usermod -aG sudo tomosev
 
+#Install htop
+sudo apt install htop 
+
 #Install node.js + pre-requisites
 sudo apt install nodejs npm
 
