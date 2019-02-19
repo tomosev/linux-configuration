@@ -7,13 +7,13 @@ adduser tomosev
 usermod -aG sudo tomosev
 
 #Install htop
-sudo apt install htop 
+sudo apt install htop -y
 
 #Install node.js + pre-requisites
-sudo apt install nodejs npm
+sudo apt install nodejs npm -y
 
 #Install NTP for time sync
-sudo apt install ntp
+sudo apt install ntp -y
 
 #check node has been installed
 node -v
