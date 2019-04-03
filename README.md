@@ -20,7 +20,7 @@ sudo apt install ntp
 ## Installation: 
 Clone this repo to your home directory
 ```
-$ cd /~
+$ cd ~/
 $ git clone https://github.com/tomosev/linux-configuration
 $ cd linux-configuration
 $ chmod +x linux-configuration
