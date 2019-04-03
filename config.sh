@@ -1,4 +1,4 @@
-echo " 
+cat << 'EOF'
  _
 | |_ ___  _ __ ___   ___  ___  _____   __
 | __/ _ \| '_ ` _ \ / _ \/ __|/ _ \ \ / /
@@ -10,7 +10,10 @@ echo "
 | | | | | | |_| |>  <  |_____| | |__| (_) | | | |  _| | (_| |
 |_|_|_| |_|\__,_/_/\_\          \____\___/|_| |_|_| |_|\__, |
                                                        |___/ 
-" 
+                                                       
+                                                     
+EOF
+
 #Personal linux system configuration file
 #Update system packages & install
 sudo apt update
